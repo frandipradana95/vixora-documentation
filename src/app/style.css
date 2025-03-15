@@ -1,0 +1,27 @@
+.app {
+  background-color: oklch(0.279 0.041 260.031);
+  color: oklch(0.985 0 0);
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app h1, p, button {
+  margin: 1rem;
+}
+
+.app p {
+  font-weight: bold;
+}
+
+.app button {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: oklch(0.746 0.16 232.661);
+  font-weight: bold;
+  color: oklch(0.985 0 0);
+}

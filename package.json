@@ -1,18 +1,18 @@
 {
   "name": "vixora-starter-template",
   "version": "1.0.0",
-  "description": "Starter Template for framework vixora",
+  "description": "Vixora Documentation",
   "keywords": [
     "Framework",
     "Library"
   ],
-  "homepage": "https://github.com/frandipradana95/vixora-starter-template#readme",
+  "homepage": "https://github.com/frandipradana95/vixora-documentation.git#readme",
   "bugs": {
-    "url": "https://github.com/frandipradana95/vixora-starter-template/issues"
+    "url": "https://github.com/frandipradana95/vixora-documentation.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frandipradana95/vixora-starter-template.git"
+    "url": "git+https://github.com/frandipradana95/vixora-documentation.git"
   },
   "license": "MIT",
   "author": "Frandi pradana",
