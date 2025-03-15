@@ -1,27 +1,57 @@
 .app {
-  background-color: oklch(0.279 0.041 260.031);
-  color: oklch(0.985 0 0);
-  height: 100%;
+  background-color: #1d293d;
   height: 100vh;
+}
+
+
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 15px 20px;
+  background: transparent;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
 }
 
-.app h1, p, button {
-  margin: 1rem;
+.navbar .container .logo > img {
+  height: 50px;
+  width: 50px;
 }
 
-.app p {
-  font-weight: bold;
+.navbar .container .logo > h1 {
+  margin-left: 1rem;
 }
 
-.app button {
-  padding: 1rem;
-  border-radius: 8px;
-  border: none;
-  background-color: oklch(0.746 0.16 232.661);
-  font-weight: bold;
-  color: oklch(0.985 0 0);
+.navbar .container .logo {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
 }

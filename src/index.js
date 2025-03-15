@@ -1,7 +1,6 @@
 import Vixora from "vixora";
 import App from "./app";
 import "./style.css";
-console.log(Vixora);
 
 /**
  * initial create element
